@@ -12,6 +12,8 @@
 		E975BD9D1E119945008802B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E975BD9B1E119945008802B3 /* Main.storyboard */; };
 		E975BD9F1E119945008802B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E975BD9E1E119945008802B3 /* Assets.xcassets */; };
 		E975BDA21E119945008802B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E975BDA01E119945008802B3 /* LaunchScreen.storyboard */; };
+		E975BDAC1E119C2F008802B3 /* mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = E975BDAA1E119C2F008802B3 /* mouse.png */; };
+		E975BDAD1E119C2F008802B3 /* mouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E975BDAB1E119C2F008802B3 /* mouse@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E975BD9E1E119945008802B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E975BDA11E119945008802B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E975BDA31E119945008802B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E975BDAA1E119C2F008802B3 /* mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouse.png; sourceTree = "<group>"; };
+		E975BDAB1E119C2F008802B3 /* mouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mouse@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				E975BD9E1E119945008802B3 /* Assets.xcassets */,
 				E975BDA01E119945008802B3 /* LaunchScreen.storyboard */,
 				E975BDA31E119945008802B3 /* Info.plist */,
+				E975BDA91E119C1C008802B3 /* Content */,
 			);
 			path = Project27;
+			sourceTree = "<group>";
+		};
+		E975BDA91E119C1C008802B3 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				E975BDAA1E119C2F008802B3 /* mouse.png */,
+				E975BDAB1E119C2F008802B3 /* mouse@2x.png */,
+			);
+			name = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E975BDAD1E119C2F008802B3 /* mouse@2x.png in Resources */,
 				E975BDA21E119945008802B3 /* LaunchScreen.storyboard in Resources */,
+				E975BDAC1E119C2F008802B3 /* mouse.png in Resources */,
 				E975BD9F1E119945008802B3 /* Assets.xcassets in Resources */,
 				E975BD9D1E119945008802B3 /* Main.storyboard in Resources */,
 			);
